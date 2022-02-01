@@ -88,3 +88,31 @@ Fixed an issue where interacting with the Bell while holding a chargeable item w
 
 Fixed a bug where the player could switch to gliding when riding in certain scenarios ([MCPE-147904](https://bugs.mojang.com/browse/MCPE-147904))
 
+## Mobs
+
+Mobs are now able to path over Azalea blocks ([MCPE-129373](https://bugs.mojang.com/browse/MCPE-129373))
+
+Mobs are now able to path over Dripleaf blocks and properly pathfind on top of them, when not fully tilted 
+
+Mobs are now able to path over Pointed Dripstone blocks and properly pathfind on top of them ([MCPE-133270](https://bugs.mojang.com/browse/MCPE-133270))
+
+Mobs can now move properly on top of solid partial blocks, like Bells, Brewing Stands, and Enchanting Tables
+
+Mobs can now jump from high enough solid partial blocks to full ones at a higher position 
+
+Mobs can now jump over fences if they are standing on an adjacent slab or on another block high enough
+
+Mobs can now move through less than half-block tall Top Snow even when the ceiling, if any, is as tall as the mobs themselves ([MCPE-148355](https://bugs.mojang.com/browse/MCPE-148355))
+
+Mobs can now move through Coral and Coral Fans, as they do not consider them as solid obstacles anymore ([MCPE-128687](https://bugs.mojang.com/browse/MCPE-128687))
+
+Fixed an issue where players could not access a Villager's trades while holding a spawn egg ([MCPE-76153](https://bugs.mojang.com/browse/MCPE-76153))
+
+Fixed an issue where Witches spawned during Village raids could despawn during the raid ([MCPE-149883](https://bugs.mojang.com/browse/MCPE-149883))
+
+Cod, Salmon, Pufferfish, Tropical Fish, and Dolphins once again spawn in deep variants of ocean biomes ([MCPE-150191](https://bugs.mojang.com/browse/MCPE-150191))
+
+## Stability and Performance
+
+Fixed a crash that could occur upon leaving the Zooming menu in the Dressing Room
+
