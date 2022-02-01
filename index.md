@@ -176,6 +176,9 @@ Added a new '/volumearea ' command to create, remove, and list volumes in the wo
 
 ## GameTest Framework
 
-Please read the full changelog in [this post](https://feedback.minecraft.net/hc/en-us/articles/4423151445901-Minecraft-Beta-1-18-20-21-Xbox-Windows-Android-)
+Please read the full changelog in [this post](https://feedback.minecraft.net/hc/en-us/articles/4423151445901-Minecraft-Beta-1-18-20-21-Xbox-Windows-Android-) . This page is too long.
 
 *Updated January 27 2022*
+
+### Download
+Download Minecraft 1.18.20.21 Beta [here](https://mcpedl.org/uploads_files/27-01-2022/minecraft-1-18-20-21.apk)
