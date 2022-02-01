@@ -152,7 +152,7 @@ A world with "StorageVersion" 8 or lower will be increased to 9 and have its "Ra
 
 ## Additional Modding Capabilities Experiment/JavaScript APIs
 
-Important! In this release and starting with this beta, we are removing the Additional Modding Capabilities experiment.  This experiment contained experimental JavaScript APIs launched in 2018 – and with this removal, JavaScript within worlds associated with this API will no longer function.  GameTest Framework – a separate JavaScript API – should not be impacted, nor should behavior pack/resource pack type add-ons more broadly. You can read more about this [via this article](https://aka.ms/mcamc).
+**Important!** In this release and starting with this beta, we are removing the Additional Modding Capabilities experiment.  This experiment contained experimental JavaScript APIs launched in 2018 – and with this removal, JavaScript within worlds associated with this API will no longer function.  GameTest Framework – a separate JavaScript API – should not be impacted, nor should behavior pack/resource pack type add-ons more broadly. You can read more about this [via this article](https://aka.ms/mcamc).
 
 ## Commands
 
@@ -182,3 +182,5 @@ Please read the full changelog in [this post](https://feedback.minecraft.net/hc/
 
 ### Download
 Download Minecraft 1.18.20.21 Beta [here](https://mcpedl.org/uploads_files/27-01-2022/minecraft-1-18-20-21.apk)
+
+This site is made by [ForgettenAccount](https://github.com/ForgettenAccount) on GitHub.
