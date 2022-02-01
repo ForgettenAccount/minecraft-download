@@ -116,3 +116,37 @@ Cod, Salmon, Pufferfish, Tropical Fish, and Dolphins once again spawn in deep va
 
 Fixed a crash that could occur upon leaving the Zooming menu in the Dressing Room
 
+## User Interface
+
+Default tabs changed to "Craftable" on left side and to "Crafting" on right side of the Pocket UI inventory screen
+
+Removed the question mark button on the Pocket UI inventory screen
+
+Items requiring 3x3 recipes are no longer shown when the Crafting Table is not used
+
+Players can now use auto-move to take off or equip armor in Crafting Table's menu while in Pocket UI ([MCPE-148970](https://bugs.mojang.com/browse/MCPE-148970))
+
+Updated generic controller face button icons on mobile
+
+Control + Backspace will now erase the whole word before the caret
+
+Control + Delete will now erase the whole word after the caret
+
+Control + Left Arrow will now move the caret to the beginning of the word before the caret
+
+Control + Right Arrow will now move the caret to the beginning of the next word after the caret
+
+## Villagers
+
+Updated Villager trade tables for Armorer, Cleric, Fisherman, Shepherd, Toolsmith, and Weaponsmith to match Java Edition
+
+Fixed an issue where Villagers did not hold the item they would trade when presented with Emeralds by the player ([MCPE-150303](https://bugs.mojang.com/browse/MCPE-150303))
+
+Villagers no longer avoid Zombified Piglins ([MCPE-94102](https://bugs.mojang.com/browse/MCPE-94102))
+
+Villagers no longer share Seeds and Beetroot Seeds
+
+## Technical Updates
+
+A world with "StorageVersion" 8 or lower will be increased to 9 and have its "RandomSeed" upgraded from using only the lower 32 bits of a 64-bit number to using the full 64-bit range while still representing the same number. This is only relevant for negative 32-bit seeds, which need a sign bit extension
+
