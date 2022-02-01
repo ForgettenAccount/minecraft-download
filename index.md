@@ -150,3 +150,32 @@ Villagers no longer share Seeds and Beetroot Seeds
 
 A world with "StorageVersion" 8 or lower will be increased to 9 and have its "RandomSeed" upgraded from using only the lower 32 bits of a 64-bit number to using the full 64-bit range while still representing the same number. This is only relevant for negative 32-bit seeds, which need a sign bit extension
 
+## Additional Modding Capabilities Experiment/JavaScript APIs
+
+Important! In this release and starting with this beta, we are removing the Additional Modding Capabilities experiment.  This experiment contained experimental JavaScript APIs launched in 2018 – and with this removal, JavaScript within worlds associated with this API will no longer function.  GameTest Framework – a separate JavaScript API – should not be impacted, nor should behavior pack/resource pack type add-ons more broadly. You can read more about this [via this article](https://aka.ms/mcamc).
+
+## Commands
+
+Added '/tickingarea' command preload overload
+
+Entities must now be loaded for an area to be considered fully loaded and ticking
+
+## Molang
+
+Molang expressions inside animation scripts for actor resource definition (pre_animation and initialize) that contain capital letters are properly evaluated now with format_version 1.18.20 or higher
+
+## User Interface
+
+The loading progress screen now shows when loading ticking areas marked for preload
+
+# Experimental Technical Updates
+
+## Commands
+
+Added a new '/volumearea ' command to create, remove, and list volumes in the world
+
+## GameTest Framework
+
+Please read the full changelog in [this post](https://feedback.minecraft.net/hc/en-us/articles/4423151445901-Minecraft-Beta-1-18-20-21-Xbox-Windows-Android-)
+
+*Updated January 27 2022*
